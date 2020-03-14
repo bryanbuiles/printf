@@ -1,5 +1,5 @@
 ## Print f
-Authorized functions and macros:
+Authorized functions and macros
 write (man 2 write)
 malloc (man 3 malloc)
 free (man 3 free)
