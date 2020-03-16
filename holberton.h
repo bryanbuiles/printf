@@ -20,7 +20,9 @@ typedef struct opf
 int _putchar(char c);
 int _printf(const char *format, ...);
 int _string(va_list string);
-
+int fun_printf_s(va_list valist);
+int fun_printf_int(va_list valist);
+int fun_printf_num(unsigned int num, int len);
 
 
 
