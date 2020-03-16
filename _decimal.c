@@ -1,4 +1,3 @@
-#include <stdarg.h>
 #include "holberton.h"
 
 /** _decimal - function that prints digits
