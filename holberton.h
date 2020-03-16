@@ -24,7 +24,7 @@ int fun_printf_s(va_list valist);
 int fun_printf_int(va_list valist);
 int fun_printf_num(unsigned int num, int len);
 int _character(va_list valist);
-
+int _decimal(va_list valist);
 
 
 
