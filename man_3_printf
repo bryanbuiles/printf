@@ -1,0 +1,13 @@
+.\MANPAGE PRINTF.
+.TH Man Version 3 "18 march 2020" "3.0" "_printf man page"
+.SH NAME
+_printf
+.SH SYNOPSIS
+
+#include "holberton.h"
+#include <stdio.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+.SH DESCRIPTION
