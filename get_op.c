@@ -16,8 +16,13 @@ int get_op(const char *format, commands_t *array, va_list valist)
 	char str; /* caracter que se va a ir imprimiendo atravez del ciclo */
 
 	str = format[i];
+
 	for (i = 0; str; ) /* recorriendo la string que nos envian */
 		{
+			if (format[i] == '%' && format[i +1] == '%')
+			{
+				_putchar('%');
+			}
 			if (str == '%')
 			{
 				j = 0; /* se me vuelva a inicializar cada vez que encuentre un % */
@@ -26,11 +31,8 @@ int get_op(const char *format, commands_t *array, va_list valist)
 				for (j = 0; array[j].por && str != *(array[j].por); j++) /* recorriendo la array de estructura hasta encontrar lo que coicida */
 					{
 					}
-					if (*(array[j]).por == str) /* entra si encontro coicedencia */
+					if (array[j].por) /* entra si encontro coicedencia */
 						k += array[j].f(valist);
-					
-					
-
 			}
 			else
 				k += _putchar(str); /*imprime caracter */
