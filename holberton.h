@@ -19,7 +19,7 @@ typedef struct opf
 
 int _putchar(char c);
 int _printf(const char *format, ...);
-
+int _string(va_list string);
 
 
 
