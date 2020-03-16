@@ -15,7 +15,7 @@ int _printf(const char *format, ...)
 		{"s", _string},
 		{"d", _decimal},
 		{"i", _decimal},
-		{"%", fun_printf_s},
+		/*{"%", fun_printf_s},*/
 		{NULL, NULL}
 	};
 
