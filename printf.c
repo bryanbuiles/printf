@@ -18,6 +18,8 @@ int _printf(const char *format, ...)
 		/*{"%", fun_printf_s},*/
 		{NULL, NULL}
 	};
+	if (format == NULL)
+		return (-1);
 
 	va_start(valist, format);
 

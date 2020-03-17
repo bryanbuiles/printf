@@ -13,6 +13,9 @@ int _string(va_list string)
 
 	p = va_arg(string, char *);
 
+	if (p == NULL)
+		p = "(null)";
+
 	for (i = 0; p[i]; )
 		{
 			i += _putchar(p[i]);

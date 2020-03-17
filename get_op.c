@@ -21,7 +21,6 @@ int get_op(const char *format, commands_t *array, va_list valist)
 		{
 			if (format[i] == '%' && format[i + 1] == '%')
 			{
-				k += _putchar('%');
 			}
 			if (str == '%')
 			{
@@ -33,6 +32,14 @@ int get_op(const char *format, commands_t *array, va_list valist)
 					}
 					if (array[j].por) /* entra si encontro coicedencia */
 						k += array[j].f(valist);
+					else
+					{
+	if (!str)
+		return(-1);
+	if(str != '%')
+	k += _putchar('%');
+	k += _putchar(str);
+					}
 			}
 			else
 				k += _putchar(str); /*imprime caracter */
