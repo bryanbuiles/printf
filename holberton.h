@@ -6,7 +6,7 @@
 #include <unistd.h>
 
 /**
- * struct opf
+ * struct opf - struct
  * @por: operator porcentaje
  * @f: pointer to functions.
  */
@@ -22,7 +22,6 @@ int _printf(const char *format, ...);
 int _string(va_list string);
 int _character(va_list valist);
 int _decimal(va_list valist);
-int _percent (va_list valist);
 int get_op(const char *format, commands_t *array, va_list valist);
 
 

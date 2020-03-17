@@ -1,10 +1,10 @@
 #include "holberton.h"
-
 /**
  * _character - function that prints character
- * @valist - list of arguments
- * Retunr - i as counter
+ * @valist: list of arguments
+ * Return: length (i)
  */
+
 
 int _character(va_list valist)
 {

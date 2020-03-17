@@ -7,15 +7,14 @@
 
 int _printf(const char *format, ...)
 {
-	va_list valist; /* argument list that going to print data type */
+	va_list valist;
 	int k;
 
-	commands_t asc[] = {  /* array de estructuras que contiene el caracter especifico */
+	commands_t asc[] = {
 		{"c", _character},
 		{"s", _string},
 		{"d", _decimal},
 		{"i", _decimal},
-		{"%", _percent},
 		{NULL, NULL}
 	};
 	if (format == NULL)

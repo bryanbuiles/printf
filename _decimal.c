@@ -1,8 +1,9 @@
 #include "holberton.h"
 
-/** _decimal - function that prints digits
+/**
+ *_decimal - function that prints digits
  * @valist: list of arguments
- * Return: i as a counter
+ * Return: length
  */
 
 int _decimal(va_list valist)
