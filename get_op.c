@@ -19,9 +19,9 @@ int get_op(const char *format, commands_t *array, va_list valist)
 
 	for (i = 0; str; ) /* recorriendo la string que nos envian */
 		{
-			if (format[i] == '%' && format[i +1] == '%')
+			if (format[i] == '%' && format[i + 1] == '%')
 			{
-				_putchar('%');
+				k += _putchar('%');
 			}
 			if (str == '%')
 			{
@@ -37,7 +37,7 @@ int get_op(const char *format, commands_t *array, va_list valist)
 			else
 				k += _putchar(str); /*imprime caracter */
 			i++; /*aumento */
-			str = format[i]; /* pone la variable como entrada de nuevo */
+			str = format[i]; /* pone la variable como entrada */
 		}
 	return (k);
 }
