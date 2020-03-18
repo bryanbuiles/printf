@@ -3,9 +3,10 @@
 
 .SH NAME
 
- _printf
-
+.B _printf
+- returns the number of characters printed and writes the output to stdout
 .SH SYNOPSIS
+_printf FORMAT [ARGUMENT]...
 
  #include "holberton.h"
  #include <stdio.h>
@@ -35,14 +36,6 @@
  each of which results in fetching zero or more subsequent arguments.Each conversion specification 
  is introduced by the character %, and ends with a conversion specifier.
 
- One can also specify explicitly which argument is taken, at each place where an argument is required,
- by writing "%m$" instead of '%' and "*m$" instead of '*',where the decimal integer m denotes the 
- position in the argument list of the desired argument, indexed starting from 1. Thus,
-
- printf("%*d", width, num);
- and
- printf("%2$*1$d", width, num);
-
 .SH THE CONVERSION SPECIFIER
 
  A character that specifies the type of conversion to be applied. The conversion specifiers and their 
@@ -60,6 +53,13 @@
  %
  A '%' is written. No argument is converted. The complete conversion specification is '%%'.
 
+.B %
+.B A '%' is written. No argument is converted. The complete conversion specification is '%%'.
+
+.B \\n
+.B New line
+
+.TP
 
 .SH EXAMPLE
 
