@@ -1,5 +1,5 @@
 ###\_printf:
-##Feitures
+##Feitures:
 
 - printf created with some functions (i, d, s,%, c). cohort 11 Holberton project.
 
