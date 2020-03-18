@@ -1,6 +1,6 @@
 ### \_printf:
 
-### Feitures:
+### Features:
 
 - printf created with some functions (i, d, s,%, c). cohort 11 Holberton project.
 
