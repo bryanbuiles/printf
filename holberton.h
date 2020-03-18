@@ -23,7 +23,7 @@ int _string(va_list string);
 int _character(va_list valist);
 int _decimal(va_list valist);
 int get_op(const char *format, commands_t *array, va_list valist);
-
+int _reverse(va_list valist);
 
 
 
