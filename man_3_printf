@@ -3,8 +3,8 @@
 
 .SH NAME
 
-.B _printf
-- returns the number of characters printed and writes the output to stdout
+ _printf
+
 .SH SYNOPSIS
 _printf FORMAT [ARGUMENT]...
 
@@ -53,11 +53,11 @@ _printf FORMAT [ARGUMENT]...
  %
  A '%' is written. No argument is converted. The complete conversion specification is '%%'.
 
-.B %
-.B A '%' is written. No argument is converted. The complete conversion specification is '%%'.
+ %
+ A '%' is written. No argument is converted. The complete conversion specification is '%%'.
 
-.B \\n
-.B New line
+ \\n
+ New line
 
 .TP
 
