@@ -1,5 +1,6 @@
-###\_printf:
-##Feitures:
+### \_printf:
+
+### Feitures:
 
 - printf created with some functions (i, d, s,%, c). cohort 11 Holberton project.
 
@@ -7,15 +8,16 @@
 
 `int _printf(const char *format, ...);`
 
-###Description:
+### Description:
 
 -A standard printf is a built-in C function in stdio.h standard library. It has a return type int and accepts variable arguments.
 
-###Return:
+### Return:
+
 -Upon successful return, printf returns the number of characters printed (excluding the null byte used to end output to strings).
 If an output error is encountered, a negative value is returned.
 
-###Format specifiers:
+### Format specifiers:
 
 | Specifier type | Description                                       |
 | -------------- | ------------------------------------------------- |
@@ -24,7 +26,7 @@ If an output error is encountered, a negative value is returned.
 | d or i         | Signed decimal integer                            |
 | %              | Two %% characters will write a single % character |
 
-###Example:
+### Example:
 
     #include "holberton.h"
                   int main(void)
@@ -33,15 +35,15 @@ If an output error is encountered, a negative value is returned.
                     return (0;)
                     }
 
-###Output:
+### Output:
 
 `HELLO, HOLBERTON`
 
-###Compilation:
+### Compilation:
 
 `$ gcc -Wall -Werror -Wextra -pedantic *.c`
 
-###Authors:
+### Authors:
 
 | Authors                 | Email                    |
 | ----------------------- | ------------------------ |
