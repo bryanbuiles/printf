@@ -15,6 +15,7 @@ int _printf(const char *format, ...)
 		{"s", _string},
 		{"d", _decimal},
 		{"i", _decimal},
+		{"r", _reverse},
 		{NULL, NULL}
 	};
 	if (format == NULL)
