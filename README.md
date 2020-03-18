@@ -1,8 +1,10 @@
-itures
+###\_printf:
+##Feitures
 
 - printf created with some functions (i, d, s,%, c). cohort 11 Holberton project.
 
 # Prototype Function:
+
 `int _printf(const char *format, ...);`
 
 ###Description:
@@ -15,12 +17,12 @@ If an output error is encountered, a negative value is returned.
 
 ###Format specifiers:
 
-Specifier type  | Description
-------------- | -------------
-c | Single character
-s  | String of characters
-d or i |Signed decimal integer
-%  | Two %% characters will write a single % character
+| Specifier type | Description                                       |
+| -------------- | ------------------------------------------------- |
+| c              | Single character                                  |
+| s              | String of characters                              |
+| d or i         | Signed decimal integer                            |
+| %              | Two %% characters will write a single % character |
 
 ###Example:
 
@@ -41,8 +43,8 @@ d or i |Signed decimal integer
 
 ###Authors:
 
-Authors | Email
-------------- | -------------
-Bryan Builes | 1482@holbertonschool.com
-Valeria Alvarez Giraldo | 1553@holbertonschool.com
-Diego Alejandro Rojas |1232@holbertonschool.com
+| Authors                 | Email                    |
+| ----------------------- | ------------------------ |
+| Bryan Builes            | 1482@holbertonschool.com |
+| Valeria Alvarez Giraldo | 1553@holbertonschool.com |
+| Diego Alejandro Rojas   | 1232@holbertonschool.com |
